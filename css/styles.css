@@ -22,6 +22,20 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 /* header stuff */
 
 .header-flexbox-styling {
@@ -103,6 +117,8 @@ img {
 
 .hero-section {
     background-color: var(--color-logo-studio);
+
+    padding: 188px 0;
 }
 
 .hero-section-title {
@@ -111,6 +127,8 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+
+    max-width: 496px;
 }
 
 .button {
@@ -121,11 +139,34 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--color-hover);
+}
+
+/* second section */
+
+.second-section {
+    padding: 120px 0;
+}
+
+.second-section-list {
+    display: flex;
+    gap: 24px;
+}
+
+.second-section-list-element {
+    width: calc((100% - 72px) / 4);
 }
 
 .list-title {
@@ -134,6 +175,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-logo-studio);
+
+    margin-bottom: 8px;
 }
 
 .list-para {
@@ -168,6 +211,8 @@ img {
 .list-element {
     background-color: #FFFFFFFF;
 }
+
+/* footer section */
 
 .footer {
     background-color: var(--color-logo-studio);
