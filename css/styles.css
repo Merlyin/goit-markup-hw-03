@@ -163,11 +163,13 @@ img {
 .second-section-list {
     display: flex;
     gap: 24px;
-}
 
-.second-section-list-element {
     width: calc((100% - 72px) / 4);
 }
+
+/* .second-section-list-element {
+    width: calc((100% - 72px) / 4);
+} */
 
 .list-title {
     font-weight: 500;
@@ -186,6 +188,12 @@ img {
     color: var(--color-a);
 }
 
+/* third section */
+
+.third-section {
+    padding-bottom: 120px;
+}
+
 .mission-title {
     font-size: 36px;
     line-height: 1.11;
@@ -193,6 +201,15 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-logo-studio);
+
+    margin-bottom: 72px;
+}
+
+.third-section-list {
+    display: flex;
+    gap: 24px;
+    
+    width: calc((100% - 48px) / 3);
 }
 
 .team-section {
