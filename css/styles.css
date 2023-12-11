@@ -68,7 +68,8 @@ img {
 }
 
 .header-menu-flexbox-styling {
-    
+    display: flex;
+    gap: 40px;
 }
 
 .nav-list {
@@ -77,6 +78,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-logo-studio);
+
+    
+    padding: 24px 0;
 }
 
 .list .link:hover,
