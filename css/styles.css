@@ -229,7 +229,7 @@ img {
     background-color: #FFFFFFFF;
 
     flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .worker {
@@ -262,6 +262,11 @@ img {
     letter-spacing: 0.02em;
 
     max-width: 264px;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* portfolio section */
