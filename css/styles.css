@@ -163,10 +163,6 @@ img {
     padding: 120px 0;
 }
 
- .second-section-list-element {
-    flex-basis: calc((100% - 72px) / 4);
-} 
-
 .list-title {
     font-weight: 500;
     font-size: 20px;
@@ -183,6 +179,10 @@ img {
     letter-spacing: 0.02em;
     color: var(--color-a);
 }
+
+.second-section-list-element {
+    flex-basis: calc((100% - 72px) / 4);
+} 
 
 /* third section */
 
